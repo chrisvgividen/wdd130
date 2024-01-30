@@ -1,21 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+
 body {
-    background-color: orange;
+    background-color: rgb(73, 137, 235);
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    max-width: 1600;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
 }
 
 .nav_link {
-    padding: 10px;
+    padding: 30px;
     font-size: 1.3em;
+    text-decoration: none;
+    text-align: center;
 }
+main{
+    background-color: white;
+    padding: 40px;
+}
+
 img {
-    width: 300px;
+    width: 50%;
 }
 a {
     color: black;
 }
 
+nav a:hover {
+    color: navy;
+    background-color: white;
+}
+
 #main_title {
     font-size: 4em;
+    text-align: center;
+    font-family: Workbench;
 }
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+p, h3 {
+    text-align: center;
+}
+
 #sub_title {
     color: red;
+}
+
+footer {
+    padding: 20px;
 }
