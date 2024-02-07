@@ -2,7 +2,7 @@
 
 body {
     background-color: rgb(73, 137, 235);
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -29,6 +29,10 @@ main{
 
 img {
     width: 50%;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid black;
+    border-radius: 10px;
 }
 a {
     color: black;
@@ -44,16 +48,22 @@ nav a:hover {
     text-align: center;
     font-family: Workbench;
 }
-
-img {
-    display: block;
-    margin: 0 auto;
-}
-
-p, h3 {
+footer p, h3 {
     text-align: center;
 }
-
+main p {
+    width: 80%;
+    margin: 50px auto;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding: 35px;
+    background-color: rgb(73, 137, 235);
+    border: 5px solid black;
+    border-radius: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
 #sub_title {
     color: red;
 }
