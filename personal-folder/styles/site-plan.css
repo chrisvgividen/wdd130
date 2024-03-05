@@ -26,6 +26,13 @@ Fonts are separated by a | */
   --nav-hover-background-color: #ffb703;
 }
 
+img{
+  width: 25%;
+}
+.personal_logo {
+  width: 200px;
+}
+
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
