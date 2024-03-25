@@ -188,7 +188,7 @@ p, h3 {
 
 
 
-/* New what-we-sell.html .css page */
+/* Home page .html */
 .first-paragraph, .second-paragraph, .third-paragraph {
     font-family: Arial, sans-serif, "Protest Revolution";
     font-size: 21px;
@@ -196,7 +196,6 @@ p, h3 {
 .img-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /*grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; */
     gap: 20px;
 }
 .top-img, .middle-img, .bottom-img {
@@ -237,6 +236,59 @@ p, h3 {
 .bottom-img, .third-paragraph {
     grid-row: 6/7;
 }
+/* End of the home page .html */
+
+
+
+/* New what-we-sell.html .css page */
+.first-paragraph, .second-paragraph, .third-paragraph {
+    font-family: Arial, sans-serif, "Protest Revolution";
+    font-size: 21px;
+}
+.img-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.top-img, .middle-img, .bottom-img {
+    width: 80%;
+    border: #000;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 25px;
+}
+.title1, .title2, .title3 {
+    grid-column: 1/4;
+
+}
+.first-paragraph, .third-paragraph {
+    grid-column: 1/3;
+}
+.second-paragraph {
+    grid-column: 2/4;
+}
+.top-img, .bottom-img {
+    grid-column: 3/4;
+}
+.title1 {
+    grid-row: 1/2;
+}
+.top-img, .first-paragraph {
+    grid-row: 2/3;
+}
+.title2 {
+    grid-row: 3/4;
+}
+.middle-img, .second-paragraph {
+    grid-row: 4/5;
+}
+.title3 {
+    grid-row: 5/6;
+}
+.bottom-img, .third-paragraph {
+    grid-row: 6/7;
+}
+/* End of what-we-sell.html css */
 
 
 
