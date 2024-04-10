@@ -212,6 +212,13 @@ p, h3 {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 80px auto;
     justify-items: center;
+    padding-bottom: 15px;
+    padding-right: 5px;
+    background-color: #ffb703;
+    border: #023047;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
 }
 .top-home-img, .middle-home-img, .bottom-home-img, .top-right-home-img, .middle-right-home-img, .bottom-right-home-img {
     width: 80%;
@@ -228,12 +235,16 @@ p, h3 {
     grid-column: 2/3;
     margin: 0;
     padding-top: 30px;
+    color: #023047;
 }
 .title1-home, .title2-home, .title3-home, .title4-home, .title5-home, .title6-home {
     grid-column: 1/3;
+    grid-row: 1/2;
     margin: 10px;
     padding: 30px;
     height: fit-content;
+    letter-spacing: 2px;
+    color: #ffb703;
 }
 .title1-home, .title2-home, .title3-home, .title4-home, .title5-home, .title6-home {
     grid-row: 1/2;
@@ -257,10 +268,27 @@ p, h3 {
     font-size: 21px;
     align-self: center;
 }
-.img-cards {
+.img-cards1, .img-cards2, .img-cards3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    
+}
+.img-cards1, .img-cards3 {
+    background-color: #023047;
+    border: #ffb703;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 100px;
+}
+.img-cards2 {
+    background-color: #ffb703;
+    border: #023047;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 100px;
 }
 .top-img, .middle-img, .bottom-img {
     width: 80%;
@@ -273,31 +301,37 @@ p, h3 {
 .title1, .title2, .title3 {
     grid-column: 1/4;
     margin-top: 75px;
+    letter-spacing: 2px;
 
 }
 .first-paragraph, .third-paragraph {
     grid-column: 1/3;
+    color: #ffb703;
 }
 .second-paragraph {
     grid-column: 2/4;
+    color: #023047;
 }
 .top-img, .bottom-img {
     grid-column: 3/4;
 }
 .title1 {
     grid-row: 1/2;
+    color: #ffb703;
 }
 .top-img, .first-paragraph {
     grid-row: 2/3;
 }
 .title2 {
     grid-row: 3/4;
+    color: #023047;
 }
 .middle-img, .second-paragraph {
     grid-row: 4/5;
 }
 .title3 {
     grid-row: 5/6;
+    color: #ffb703;
 }
 .bottom-img, .third-paragraph {
     grid-row: 6/7;
@@ -314,17 +348,23 @@ p, h3 {
 .first-paragraph-about-me, .second-paragraph-about-me, .third-paragraph-about-me-about-me {
     font-family: Arial, sans-serif, "Protest Revolution";
     font-size: 21px;
-    align-self: center;
+    
+    margin: 0;
+    padding-top: 30px;
 }
 .home-grid-about-me {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    justify-items: center;
 }
 .img-cards-about-me, .img-cards-about-me2, .img-cards-about-me3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    align-self: center;
+    margin: 0;
+    padding-top: 30px;
 }
 .img-cards-about-me1 {
     grid-column: 1/3;
@@ -333,10 +373,12 @@ p, h3 {
 .img-cards-about-me2 {
     grid-column: 1/2;
     grid-row: 2/3;
+    justify-items: center;
 }
 .img-cards-about-me3 {
     grid-column: 2/3;
     grid-row: 2/3;
+    justify-items: center;
 }
 .middle-img-about-me, .bottom-img-about-me {
     width: 80%;
@@ -345,6 +387,7 @@ p, h3 {
     border-width: 5px;
     border-radius: 25px;
     align-self: center;
+    justify-items: center;
 }
 .top-img-about-me {
     width: 70%;
@@ -359,11 +402,15 @@ p, h3 {
     grid-column: 1/3;
     grid-row: 1/2;
     margin-top: 75px;
+    justify-items: center;
+    letter-spacing: 2px;
 }
 .title3-about-me {
     grid-column: 1/3;
     grid-row: 1/2;
     margin-top: 75px;
+    justify-items: center;
+    letter-spacing: 2px;
 }
 .first-paragraph-about-me {
     grid-column: 1/3;
@@ -372,10 +419,12 @@ p, h3 {
 .second-paragraph-about-me {
     grid-column: 2/3;
     grid-row: 2/3;
+    justify-items: center;
 }
 .third-paragraph-about-me {
     grid-column: 2/3;
     grid-row: 2/3;
+    justify-items: center;
 }
 .top-img-about-me {
     grid-column: 1/3;
